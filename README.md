@@ -1,0 +1,1 @@
+# Design: https://www.figma.com/file/PxBIDtmIwJiYemRcHQuJvc/eCommerce-Website-%7C-Web-Page-Design-%7C-UI-KIT-%7C-Interior-Landing-Page-(Community)?type=design&node-id=117-336&mode=design&t=bltYn4kVOXMpu4oL-0
