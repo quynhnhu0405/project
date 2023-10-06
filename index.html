@@ -9,8 +9,8 @@
     6. table tạo bảng
     thead phần tiêu đề bảng
     tbody nội dung
-    7. input tao ô tích vuông 
-    8. buton tạo ô tích tròn
+    7. input tao ô tích 
+    8. button tạo nut html làm liên kết
     9. div tao khối bao quanh đối tượng
     -->
 <head>
@@ -19,11 +19,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <!--Phan hien thi trang tìm kiếm-->
     <title>QN - Shop</title>
+    <link rel="stylesheet" href="main.css">
 </head>
 <body>
     <!-- tạo khối bao quanh -->
     <div>
-        <h1>QuynhNhuShop</h1>
+        <!-- title tạo tiêu đề ghi chú Attribute  -->
+        <!-- attribute là thuộc tính thẻ html  -->
+        <!-- id để chỉnh sửa 1 phần có id đó -->
+        <!-- class sử dụng id cho nhiều phần tử -->
+        <h1 title="Tên shop" class="first-heading" >QuynhNhuShop</h1>
+        <h1 class="first-heading">Shop Mi Pham</h1>
     <!--tạo ra 1 ô nhập chữ-->
     <!-- <input type="checkbox"> tích vào ô vuông-->
     <!-- <input type="radio"> ô hình tròn-->
@@ -67,10 +73,19 @@
                     <td>Son Mac</td>
                     <td>400.000</td>
                 </tr>
-
             </tbody>
-
         </table>
     </div>
+    <!-- css in html có 3 cách-->
+    <!-- internal : sử dụng thẻ style trong thẻ html -->
+    <!-- External tạo 1 file bên ngoài sử dụng câp thẻ link tới file đó-->
+    <!-- inline ghi trực tiếp -->
+    <!-- <style>
+        h1{
+            color:  red;
+            font-size: 50px;
+        }
+
+</style> -->
 </body>
 </html>
