@@ -17,6 +17,7 @@ body {
   display: flex;
   justify-content: space-around;
   align-items: center;
+
 }
 
 .header .button {
@@ -95,7 +96,12 @@ body {
   align-items: center;
   display: flex;
   flex-direction: column;
+
 }
+.item-category:hover{
+  transform: translateY(-15px);
+}
+
 .item-category p {
   align-items: center;
   justify-content: center;
@@ -126,6 +132,9 @@ body {
   column-gap: 32px;
   row-gap: 32px;
   margin-top: 24px;
+}
+.product-item:hover{
+  scale: 1.1;
 }
 .product-item {
   overflow: hidden;
@@ -164,4 +173,7 @@ body {
   height: 20%;
   margin-top: 20px;
   padding: 10px 20px;
+}
+.content-banner p{
+  font-size: 200pt;
 }
